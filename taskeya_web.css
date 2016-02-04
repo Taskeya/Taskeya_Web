@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+}
+
+/* ここからNav bar*/
+header nav.navbar-default {
+  height: 60px;
+  width: 100%;
+  background-color: white;
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+
+header .navbar-brand img{
+  height:30px;
+}
+
+header .collapse .navbar-nav li a{
+  color:rgb(31, 31, 31);
+  padding-top:18px;
+}
+
+header .collapse .navbar-nav li a:hover{
+  color:rgb(229, 55, 102);;
+}
+
+/* ここからfirst-wrapper*/
+.first-wrapper{
+  margin-top:0px;
+  height:650px;
+  background-image: url( images/imageTop.png );
+  background-size: cover;
+}
+
+.first-wrapper .headline h1{
+  color:white;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro";
+  font-size: 35px;
+  padding-top:260px;
+  text-align: center;
+  width: 100%;
+}
+
+.first-wrapper .headline h2{
+  color:white;
+  font-family: 'Courier New', courier;
+  padding-top:0px;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.input-group{
+  width:40%;
+  padding-top:20px;
+  margin:0 auto;
+}
+
+.btn-default {
+  background-color:rgb(229, 55, 102);
+  color:white;
+  border-color:rgb(229, 55, 102);
+}
+
+.btn-default:hover{
+  background-color: white;
+  color:black;
+}
+
+/*ここからsecond-wrapper*/
+.second-wrapper{
+  margin-top:0px;
+  height:480px;
+  background-color: white;
+}
+
+.second-wrapper h2{
+  color: black;
+  text-align: center;
+  font-family: "游ゴシック", "YuGothic", sans-serif;
+  padding-top: 50px;
+}
+
+.second-wrapper img{
+  width:40%;
+  margin-top:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*ここからthird-wrapper*/
+.third-wrapper{
+  height:515px;
+  background-color: rgb(89, 89, 89);
+}
+
+.third-wrapper h1{
+  padding-top:20px;
+  padding-bottom:-20px;
+  font-size: 30px;
+  color:white;
+  font-family: 'Courier New', courier;
+  text-align: center;
+}
+
+.container img{
+  height:200px;
+  margin-bottom: 20px;
+}
+
+.container img:hover {
+  -webkit-filter:brightness(1.1);
+  -moz-filter:brightness(1.1);
+  -ms-filter:brightness(1.1);
+  filter:brightness(1.1);
+}
+
+/*ここからforth-wrapper*/
+.forth-wrapper{
+  height:500px;
+  width: 100%;
+}
+
+.forth-left{
+  width:50%;
+  height:500px;
+  float:left;
+  background-color: black;
+  background-image: url(images/image_hand.png);
+  background-size: cover;
+}
+
+.forth-right{
+  width:50%;
+  height:500px;
+  float:right;
+  background-color:rgb(229, 55, 102);
+}
+
+.forth-right h2{
+  margin-top:30px;
+  color:white;
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro";
+}
+
+.forth-right p{
+  margin-top:20px;
+  color:white;
+  text-align: center;
+  font-family: "游ゴシック", "YuGothic", sans-serif;
+  font-size: 18px;
+}
+
+.request-bottom-form{
+  width:80%;
+}
+
+.request-bottom-form .btn{
+  border-color: rgb(201, 201, 201);
+}
+
+.accept-bottom .btn{
+  border-color: rgb(201, 201, 201);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*ここからfooter*/
+footer {
+  background-color: rgb(64,64,64);
+}
+
+footer nav.navbar-default {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(64,64,64);
+  border-color: rgb(64,64,64);
+  border-radius: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index:10;
+}
+
+.navbar-icon img{
+  height:45px;
+  padding-top: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collapse .navbar-nav li a{
+  color:white;
+  padding-top:18px;
+}
+
+.collapse .navbar-nav li a:hover{
+  color:rgb(229, 55, 102);
+}
